@@ -1,5 +1,4 @@
 @import '../utilities/variables';
-@import '../base/reset';
 @import '../utilities/mixins';
 // Base style (tag only)
 * {
@@ -9,11 +8,13 @@
   &:after {
     box-sizing: border-box;
   }
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: 'Agne';
-  font-weight: 400;
+  // font-weight: 400;
   -ms-touch-action: none;
   touch-action: none;
 }

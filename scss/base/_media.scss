@@ -1,0 +1,15 @@
+@media screen and (max-width: 1010px) {
+  
+  .header__topnav {
+
+    .header__topnav-link {
+      display: none;
+    }
+
+    #menu {
+      display: block;
+      color: #fcac45;
+      float: right;
+    }
+  }
+}
