@@ -73,8 +73,9 @@ header {
 .header__navig {
   margin-top: 56px;
   margin-left: 29%; }
-  .header__navig .header__topnav #menu {
+  .header__navig .header__topnav .header__topnav-icon {
     color: #fff;
+    float: right;
     display: none; }
   .header__navig .header__topnav .header__topnav-link {
     color: #fff;
@@ -88,9 +89,10 @@ header {
 @media screen and (max-width: 1010px) {
   .header__topnav .header__topnav-link {
     display: none; }
-  .header__topnav #menu {
-    display: block;
+  .header__topnav .header__topnav-icon {
+    display: block !important;
     color: #fcac45;
-    float: right; } }
+    float: right;
+    margin-top: -17px; } }
 
 /*# sourceMappingURL=style.css.map */

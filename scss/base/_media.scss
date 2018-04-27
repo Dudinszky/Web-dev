@@ -5,11 +5,11 @@
     .header__topnav-link {
       display: none;
     }
-
-    #menu {
-      display: block;
+    .header__topnav-icon {
+      display: block !important;
       color: #fcac45;
       float: right;
+      margin-top: -17px;
     }
-  }
+}
 }

@@ -27,8 +27,10 @@ header{
   margin-left: 29%;
 
   .header__topnav {
-    #menu {
+
+    .header__topnav-icon {
       color: #fff;
+      float: right;
       display: none;
     }
 
