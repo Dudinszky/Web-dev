@@ -81,16 +81,31 @@ header {
     float: right;
     display: none; }
 
+@media screen and (max-width: 1020px) {
+  .header__navig {
+    margin-left: 20%; } }
+@media screen and (max-width: 1150px) {
+  .header__navig {
+    margin-left: 20%; } }
 @media screen and (max-width: 1010px) {
-  .header__navig .header__topnav-link {
-    display: none; }
-  .header__navig .icon {
-    display: block;
-    color: #fcac45;
-    float: right;
-    margin-top: -17px;
-    font-size: 29px; }
-    .header__navig .icon:hover {
-      border-bottom: 3px solid #fcac45; } }
+  .header__navig {
+    width: 100%; }
+    .header__navig .header__topnav .header__topnav-link {
+      display: none; }
+    .header__navig .header__topnav .icon {
+      display: block;
+      color: #fcac45;
+      float: right;
+      margin-top: -17px;
+      font-size: 29px; }
+      .header__navig .header__topnav .icon:hover {
+        border-bottom: 3px solid #fcac45; }
+
+  .header__navig.responzive {
+    position: relative;
+    top: 50px;
+    left: -200px;
+    height: 340px;
+    height: 340px; } }
 
 /*# sourceMappingURL=style.css.map */

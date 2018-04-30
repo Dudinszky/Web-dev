@@ -40,20 +40,41 @@ header{
   }
 }
 
+@media screen and (max-width: 1020px) {
+  
+  .header__navig {
+    margin-left: 20%;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .header__navig {
+    margin-left: 20%;
+  }
+}
 @media screen and (max-width: 1010px) {
   .header__navig{
-    .header__topnav-link {
-      display: none;
-    }
-    .icon {
-      display: block;      
-      color: #fcac45;
-      float: right; 
-      margin-top: -17px;
-      font-size: 29px;
-      &:hover {
-        border-bottom: 3px solid #fcac45;
+    width: 100%;
+    .header__topnav {
+      .header__topnav-link {
+        display: none;
+      }
+      .icon {
+        display: block;      
+        color: #fcac45;
+        float: right; 
+        margin-top: -17px;
+        font-size: 29px;
+        &:hover {
+          border-bottom: 3px solid #fcac45;
+        }
       }
     }
+  }
+  .header__navig.responzive{
+    position: relative;
+    top: 50px;
+    left: -200px;
+    height: 340px;
+    height: 340px;
   }
 }
