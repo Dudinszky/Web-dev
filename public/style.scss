@@ -1,10 +1,4 @@
-@import 'base/base';
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+@import './scss/base/base';
 // HEADER
 header{
   width: 100%;
@@ -28,12 +22,6 @@ header{
 
   .header__topnav {
 
-    .header__topnav-icon {
-      color: #fff;
-      float: right;
-      display: none;
-    }
-
     .header__topnav-link {
       color: #fff;
       text-align: center;
@@ -44,7 +32,28 @@ header{
         border-bottom: 3px solid #fcac45;
       }
     }
+    .icon {
+      color: #fff;
+      float: right;
+      display: none;
+    }
   }
 }
 
-@import 'base/media';
+@media screen and (max-width: 1010px) {
+  
+  .header__topnav-link {
+    display: none;
+  }
+  
+  .icon {
+    display: block;      
+    color: #fcac45;
+    float: right; 
+    margin-top: -17px;
+    font-size: 29px;
+    &:hover {
+      border-bottom: 3px solid #fcac45;
+    }
+  }
+}
