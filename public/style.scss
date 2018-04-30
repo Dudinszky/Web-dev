@@ -41,19 +41,19 @@ header{
 }
 
 @media screen and (max-width: 1010px) {
-  
-  .header__topnav-link {
-    display: none;
-  }
-  
-  .icon {
-    display: block;      
-    color: #fcac45;
-    float: right; 
-    margin-top: -17px;
-    font-size: 29px;
-    &:hover {
-      border-bottom: 3px solid #fcac45;
+  .header__navig{
+    .header__topnav-link {
+      display: none;
+    }
+    .icon {
+      display: block;      
+      color: #fcac45;
+      float: right; 
+      margin-top: -17px;
+      font-size: 29px;
+      &:hover {
+        border-bottom: 3px solid #fcac45;
+      }
     }
   }
 }

@@ -82,16 +82,15 @@ header {
     display: none; }
 
 @media screen and (max-width: 1010px) {
-  .header__topnav-link {
+  .header__navig .header__topnav-link {
     display: none; }
-
-  .icon {
+  .header__navig .icon {
     display: block;
     color: #fcac45;
     float: right;
     margin-top: -17px;
     font-size: 29px; }
-    .icon:hover {
+    .header__navig .icon:hover {
       border-bottom: 3px solid #fcac45; } }
 
 /*# sourceMappingURL=style.css.map */
