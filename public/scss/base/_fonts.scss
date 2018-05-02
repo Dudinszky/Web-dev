@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'RegularWeb';
-  src: url('../fonts/webregular/regular-web.woff2'),
-       url('../fonts/webregular/regular-web.woff');
+  font-family: 'sansRegular';
+  src: url('./fonts/light.woff2'),
+       url('./fonts/light.woff');
 }
 
 @font-face {
-  font-family: 'BoldWeb';
-    src: url('../fonts/webbold/web-bold.woff2'),
-    url('../fonts/webbold/web-bold.woff');
+  font-family: 'sansLight';
+    src: url('./fonts/regular.woff2'),
+    url('./fonts/regular.woff');
 }

@@ -51,6 +51,12 @@ input[type='search']:focus:-ms-input-placeholder,
 textarea:focus:-ms-input-placeholder {
   color: transparent !important; }
 
+@font-face {
+  font-family: 'sansRegular';
+  src: url("./fonts/light.woff2"), url("./fonts/light.woff"); }
+@font-face {
+  font-family: 'sansLight';
+  src: url("./fonts/regular.woff2"), url("./fonts/regular.woff"); }
 header {
   width: 100%;
   background-color: #000;
@@ -61,6 +67,7 @@ header {
   color: #fff;
   font-weight: 800;
   font-size: 24px;
+  font-family: 'sansRegular';
   cursor: pointer;
   margin-top: 56px;
   margin-left: 12%; }
@@ -73,7 +80,8 @@ header {
     text-align: center;
     padding: 12px 16px;
     font-size: 14px;
-    font-weight: bold; }
+    font-weight: bold;
+    font-family: 'sansRegular'; }
     .header__navig .header__topnav .header__topnav-link:hover {
       border-bottom: 3px solid #fcac45; }
   .header__navig .header__topnav .icon {
@@ -100,12 +108,32 @@ header {
       font-size: 29px; }
       .header__navig .header__topnav .icon:hover {
         border-bottom: 3px solid #fcac45; }
+    .header__navig .responzive {
+      position: relative;
+      top: 50px;
+      left: -200px;
+      height: 340px;
+      height: 340px; } }
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
 
-  .header__navig.responzive {
-    position: relative;
-    top: 50px;
-    left: -200px;
-    height: 340px;
-    height: 340px; } }
+.main-welcome {
+  background-color: #000;
+  text-align: center;
+  padding: 200px 0 410px; }
+  .main-welcome .main-welcome__header {
+    color: #fff;
+    font-size: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'sansLight'; }
+  .main-welcome .mycompany {
+    color: #fcac45; }
+  .main-welcome .main-welcome__par {
+    color: #999999;
+    font-size: 20px;
+    font-family: 'sansRegular'; }
 
 /*# sourceMappingURL=style.css.map */
